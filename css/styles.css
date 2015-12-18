@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Bad+Script|Oxygen);
+
+
+.background{
+	background-color:#202A4E; /**dark blue**/
+	width:100%;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+img.logo{
+	width:50%;
+	margin-top:23px;
+}
+
+.navbar-default {
+  background-color:#202A4E;
+  border-color: transparent;
+}
+/*nav starts here*/
+nav.navbar.navbar-default{
+  position:absolute;
+  top:0;
+  z-index:20;
+  width:100%;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover;{
+  color:rgba(251, 131, 51, .92);
+  background-color:rgba(251, 131, 51, .92);
+}
+.navbar-default .navbar-nav>li>a {
+  color:#FCFCFC;
+  text-shadow:1px 1px 2px #0a0a0a;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover{
+  color:#f8512f;
+  background-color: rgba(17, 17, 17, .2);
+}
+/*end of nav*/
+/*end of header*/
+
+.main-title{
+	padding-top:140px;
+	font-family:'bad script';
+	color:rgba(251, 131, 51, .92); /**lite orange*/
+	text-align:center;
+	font-weight:900;
+	font-size:65px;
+	margin-bottom:80px;
+}
+.cover{
+	background-image:url(../img/sandy-cayucous-pier.png);
+	background-size:cover;
+	background-position:center;
+	height:560px;
+	width:100%;
+	padding-top:-5px;
+}
+
+.cover h2{
+	margin-top:-36px;
+	color:#202A4E;/**dark blue**/
+	font-size:50px;
+	text-align:center;
+	text-shadow:0px 0px 20px rgba(84, 107, 150, 1);
+	margin-bottom:3%;
+}
+
+#circle {
+	width:200px;
+	height:200px;
+	background:rgba(251, 131, 51, .92);
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius:100px;
+}
+#circle:hover{
+	width:200px;
+	height:200px;
+	background:#8cb2d9;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius:100px;
+}
+
+#services{
+  background-color:#202A4E;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin:0 auto;
+	width:100%;
+	color:#fff;
+}
+a{
+	text-decoration: none;
+}
+.flex .parent{
+	display:flex;
+	justify-content space-around;
+}
+#services h2{
+	color:rgba(251, 131, 51, .92);
+	margin-bottom:40px;
+	text-align:center;
+}
+.services{
+	margin-left:6%;
+}
+.services h3{
+	color:rgba(251, 131, 51, .92);
+	text-decoration:none;
+}
+.services h3:hover{
+	color:#8cb2d9;
+	text-decoration:none;
+}
+#services h3:hover{
+	color:#8cb2d9;
+} /*cover ends here*/
+
+
+/*calendar starts here*/
+.calendar{
+	display: block;
+	margin-top:10%;
+	margin-left:200px;
+}
+.main-content h2{
+	margin-top:100px;
+}
+
+footer{
+	height:175px;
+	background-color:rgba(251, 131, 51, .92);
+}
+footer .row{
+	margin-top:20px;
+	text-align:center;
+}
+address{
+	margin-top:20px;
+}
+.fine-print{
+	margin-top:30px;
+	color:#202A4E;
+}
+/*HOME PAGE ENDS HERE*/
+
+/*CAROUSEL STARTS HERE*/
+
+.slide-one{
+  background-image: url(../img/palm-trees-beach.jpg);
+}
+.slide-two{
+  background-image: url(../img/Dinkey-Creek-Sandy.jpg);
+}
+.slide-three{
+  background-image: url(../img/blue-waves-fence.jpg);
+}
+.carousel-inner .item{
+  height:600px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption{
+  bottom:115px;
+}
+
+
+.carousel-caption{
+  color:#fff;
+  font-size:17px;
+  text-shadow:0px 0px 3px rgba(0, 0, 0, 0,71);
+  font-weight:400;
+}
+/*CAROUSEL ENDS HERE*/
+
+/*CONTACT PAGE STARTS HERE*/
+#wufoo-z1j4s7g704027ov{
+    background-color:#8cb2d9;
+    border:10px solid rgba(251, 131, 51, .92);
+    border-radius:12px;
+    width:83%;
+    margin:0px auto;
+		margin-top:5%;
+    padding-left:40px;
+    margin-left:10%;
+}
+
+.main-content{
+	text-align:center;
+	color:#fff;
+
+}
